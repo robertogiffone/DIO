@@ -1,0 +1,24 @@
+{
+    "Filme": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Diretor": {"S": "Anthony Russo"},
+				  "FilmeTitulo": {"S": "Vingadores Últimato"},
+				  "TituloGenero": {"S": "Aventura"},
+				  "AnoFilme": {"S": "2019"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Diretor": {"S": "Patricia Riggen"},
+				  "FilmeTitulo": {"S": "Milagres do Paraíso"},
+				  "TituloGenero": {"S": "Drama"},
+				  "AnoFilme": {"S": "2016"}
+                }
+            }
+        }
+      ]
+}
